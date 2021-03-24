@@ -11,7 +11,7 @@ build:
     image_template: mariadb_slave-10.4
 
 deploy:
-    context: alpha/DEV
+    context: sumithikeqa/DEV
     type: statefulset
     replicas: 1
     port:
